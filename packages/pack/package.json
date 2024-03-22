@@ -1,0 +1,88 @@
+{
+  "name": "@tsdi/pack",
+  "version": "5.3.8",
+  "description": "@tsdi/pack is simple build tasks, base on AOP, Ioc container, via @tsdi. dev build pack activities.",
+  "scripts": {
+    "postinstall": "npm prune",
+    "build": "ts-node -r tsconfig-paths/register taskfile.ts"
+  },
+  "keywords": [
+    "build",
+    "builder",
+    "pack",
+    "activity",
+    "workflow",
+    "task",
+    "stream",
+    "pipe",
+    "framework",
+    "AOP",
+    "aop",
+    "tsdi",
+    "@tsdi",
+    "tsioc",
+    "ioc",
+    "IoC",
+    "type",
+    "container",
+    "dependency",
+    "injection"
+  ],
+  "author": "houjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouhoujun/tsioc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouhoujun/tsioc.git"
+  },
+  "homepage": "https://github.com/zhouhoujun/tsioc/blob/master/packages/activities#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^1.10.0",
+    "minimist": "^1.2.0",
+    "globby": "^10.0.1",
+    "del": "^3.0.0",
+    "chalk": "^2.4.2",
+    "chokidar": "^3.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-json-editor": "^2.5.2",
+    "json-in-place": "^1.0.1",
+    "rollup": "^1.21.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-pluginutils": "^2.8.2",
+    "vinyl-fs": "^3.0.3",
+    "rxjs": "^6.3.3",
+    "shelljs": "^0.8.3",
+    "through2": "^3.0.0",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.5.3",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "peerDependencies": {
+    "@tsdi/ioc": "~5.3.8",
+    "@tsdi/aop": "~5.3.8",
+    "@tsdi/boot": "~5.3.8",
+    "@tsdi/components": "~5.3.8",
+    "@tsdi/core": "~5.3.8",
+    "@tsdi/unit": "~5.3.8",
+    "@tsdi/unit-console": "~5.3.8",
+    "@tsdi/logs": "~5.3.8",
+    "@tsdi/annotations": "~5.3.8",
+    "@tsdi/activities": "~5.3.8",
+    "@tsdi/platform-server": "~5.3.8",
+    "@tsdi/platform-server-boot": "~5.3.8",
+    "rollup-plugin-uglify": "^6.0.3",
+    "rollup-plugin-node-builtins": "^2.1.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}

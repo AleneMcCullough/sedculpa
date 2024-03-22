@@ -1,0 +1,55 @@
+{
+  "name": "@tsdi/platform-browser-activities",
+  "version": "5.3.8",
+  "description": "workflow framework on browser, base on AOP, Ioc container, via @tsdi",
+  "scripts": {
+    "postinstall": "npm prune",
+    "build": "ts-node -r tsconfig-paths/register taskfile.ts"
+  },
+  "keywords": [
+    "platform",
+    "browser",
+    "activity",
+    "workflow",
+    "task",
+    "framework",
+    "AOP",
+    "aop",
+    "tsdi",
+    "@tsdi",
+    "tsioc",
+    "ioc",
+    "IoC",
+    "type",
+    "container",
+    "dependency",
+    "injection"
+  ],
+  "author": "houjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouhoujun/tsioc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouhoujun/tsioc.git"
+  },
+  "homepage": "https://github.com/zhouhoujun/tsioc/blob/master/packages/platform-browser-activities#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^1.10.0"
+  },
+  "peerDependencies": {
+    "@tsdi/ioc": "~5.3.8",
+    "@tsdi/core": "~5.3.8",
+    "@tsdi/aop": "~5.3.8",
+    "@tsdi/logs": "~5.3.8",
+    "@tsdi/boot": "~5.3.8",
+    "@tsdi/activities": "~5.3.8",
+    "@tsdi/platform-browser": "~5.3.8"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
